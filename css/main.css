@@ -67,6 +67,10 @@ section h2 {
   margin: 0;
 }
 
+.section-letter {
+  display: block;
+}
+
 @media only screen and (min-width: 25em) {
 
   html {
@@ -87,6 +91,10 @@ section h2 {
   .section-body {
     margin: 0 1.4rem;
     margin-bottom: 1.4rem;
+  }
+
+  .section-letter {
+    display: block;
   }
 
 }
@@ -160,12 +168,9 @@ section h2 {
     font-size: 130%;
   }
 
-  .img-flex {
-    padding: 3rem;
-    padding-bottom: 0;
-  }
-
   .wrapper {
+    max-width: 45em;
+    margin: 0 auto;
   }
 
 }
